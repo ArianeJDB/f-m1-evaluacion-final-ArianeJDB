@@ -1,8 +1,30 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    margin: 0 15px;
+    display: flex;
+}
 .hero {
     background-image: url(/assets/images/cover.jpg);
+    //ajustar al ancho de pantalla?
+    margin: 0 15px;
     height: 100vh;
     background-repeat: no-repeat;
+    background-size: cover;
 } 
-
-
-// background-image: url(../assets/images/cover.jpg);
+.nav {
+    height: 44px;
+    width: 44px;
+    background: #0271bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 15px;
+}
+.title {
+color: $colorWhite;
+font-size: 42px;
+}
