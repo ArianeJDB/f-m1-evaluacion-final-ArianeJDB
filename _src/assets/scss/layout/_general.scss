@@ -1,6 +1,8 @@
 .main {
     display:flex;
     flex-direction: column;
+    line-height: 30px;
+    font-family: $font-family;
 }
 .main__container__first {
     // height: 376px;
@@ -8,6 +10,8 @@
 
 .main__container__second {
     background: pink;
+    text-align: center;
+    
 }
 
 .main__container__first-link {
@@ -45,15 +49,64 @@
 }
 .button-go {
     width: 76px;
-    height: 45px;
+    font-family: $font-family;
     border-radius: 50px;
     border: solid $colorOrange 2px;
     background: white;
     color: $colorOrange;
     font-size: $xxl;
     font-weight: bold;
+    line-height: 45px;
 }
 
 .main__container__second {
     background: #eff9ff;
+    font-size: $xl;
+    
+}
+
+.title3 {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.text {
+margin-top: 0;
+padding-right: 55px;
+padding-left: 55px;
+}
+
+.main__container__second__button {
+    
+}
+.button-reasons {
+    width: 184px;
+    font-family: $font-family;
+    line-height: 45px;
+    background: $colorOrange;
+    border-radius: 50px;
+    font-size: $xxl;
+    color: $colorWhite;
+    text-align: center;
+    border: none;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.button__scroll-up {
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
