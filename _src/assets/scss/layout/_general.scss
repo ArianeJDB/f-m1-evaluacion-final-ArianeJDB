@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 .main__container__first {
-    height: 376px;
+    // height: 376px;
 }
 
 .main__container__second {
@@ -13,8 +13,9 @@
 .main__container__first-link {
     margin-top: 30px;
     margin-bottom: 0;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-size: 14px;
+    height: 30px;
 }
 
 .link-tips {
@@ -26,19 +27,21 @@
     margin-top: 1px;
     font-size: 24px;
     text-transform: capitalize;
+    margin-bottom: 15px;
 }
 
 .main__container__first__text {
     font-size: $xl;
-    height: 120px;
-    margin-bottom: 0;
+    
+    margin-bottom: 30px;;
+    margin-top: 15px;
 
 }
 
 .main__container__first__button {
-    height: 120px;
     display: flex;
     align-items: center;
+    margin-bottom: 45px;
 }
 .button-go {
     width: 76px;
