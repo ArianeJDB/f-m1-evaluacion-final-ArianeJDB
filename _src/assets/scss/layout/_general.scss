@@ -11,6 +11,7 @@
 .main__container__second {
     background: pink;
     text-align: center;
+    position: relative;
     
 }
 
@@ -101,12 +102,16 @@ padding-left: 55px;
     margin-bottom: 60px;
 }
 
+
 .button__scroll-up {
     width: 45px;
     height: 45px;
-    background: red;
+    background: $colorWhite;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
 }
