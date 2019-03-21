@@ -8,11 +8,7 @@
   // height: 376px;
 }
 
-.main__container__second {
-  background: pink;
-  text-align: center;
-  position: relative;
-}
+
 
 .main__container__first-link {
   margin-top: 30px;
@@ -62,7 +58,12 @@
 .main__container__second {
   background: #eff9ff;
   font-size: $xl;
-}
+    text-align: center;
+    position: relative; 
+    z-index: 1;
+    
+  }
+
 
 .title3 {
   margin-top: 30px;
