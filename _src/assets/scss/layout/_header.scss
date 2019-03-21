@@ -9,11 +9,12 @@ body {
 }
 .hero {
     background-image: url(/assets/images/cover.jpg);
+    
     //ajustar al ancho de pantalla?
-    margin: 0 15px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     // position: relative;
     display: flex;
     justify-content: center;
@@ -28,8 +29,8 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0px;
-    left: 15px;
+    top: 0;
+    left: 0;
 }
 .header__text {
     // position: absolute;
