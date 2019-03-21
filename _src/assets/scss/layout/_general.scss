@@ -1,118 +1,113 @@
 .main {
-    display:flex;
-    flex-direction: column;
-    line-height: 30px;
-    font-family: $font-family;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  font-family: $font-family;
 }
 .main__container__first {
-    // height: 376px;
+  // height: 376px;
 }
 
 .main__container__second {
-    background: pink;
-    text-align: center;
-    position: relative;
-    
+  background: pink;
+  text-align: center;
+  position: relative;
 }
 
 .main__container__first-link {
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding-bottom: 0px;
-    font-size: 14px;
-    height: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  font-size: 14px;
+  height: 30px;
 }
 
 .link-tips {
-    text-decoration: none;
-    color: $colorlightblue;
+  text-decoration: none;
+  color: $colorlightblue;
 }
 
 .title2 {
-    margin-top: 1px;
-    font-size: 24px;
-    text-transform: capitalize;
-    margin-bottom: 15px;
+  margin-top: 1px;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
 }
 
 .main__container__first__text {
-    font-size: $xl;
-    
-    margin-bottom: 30px;;
-    margin-top: 15px;
+  font-size: $xl;
 
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 .main__container__first__button {
-    display: flex;
-    align-items: center;
-    margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
 }
 .button-go {
-    width: 76px;
-    font-family: $font-family;
-    border-radius: 50px;
-    border: solid $colorOrange 2px;
-    background: white;
-    color: $colorOrange;
-    font-size: $xxl;
-    font-weight: bold;
-    line-height: 45px;
+  width: 76px;
+  font-family: $font-family;
+  border-radius: 50px;
+  border: solid $colorOrange 2px;
+  background: white;
+  color: $colorOrange;
+  font-size: $xxl;
+  font-weight: bold;
+  line-height: 45px;
+  cursor: pointer;
 }
 
 .main__container__second {
-    background: #eff9ff;
-    font-size: $xl;
-    
+  background: #eff9ff;
+  font-size: $xl;
 }
 
 .title3 {
-    margin-top: 30px;
-    margin-bottom: 45px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 h3 {
-    font-weight: bold;
-    margin-bottom: 0;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .text {
-margin-top: 0;
-padding-right: 55px;
-padding-left: 55px;
+  margin-top: 0;
+  padding-right: 55px;
+  padding-left: 55px;
 }
 
-.main__container__second__button {
-    
-}
 .button-reasons {
-    width: 184px;
-    font-family: $font-family;
-    line-height: 45px;
-    background: $colorOrange;
-    border-radius: 50px;
-    font-size: $xxl;
-    color: $colorWhite;
-    text-align: center;
-    border: none;
-    margin-top: 45px;
-    margin-bottom: 60px;
+  width: 184px;
+  font-family: $font-family;
+  line-height: 45px;
+  background: $colorOrange;
+  border-radius: 50px;
+  font-size: $xxl;
+  color: $colorWhite;
+  text-align: center;
+  border: none;
+  margin-top: 45px;
+  margin-bottom: 60px;
+  cursor: pointer;
 }
-
 
 .button__scroll-up {
-    width: 45px;
-    height: 45px;
-    background: $colorWhite;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: -25px;
-    left: 50%;
-    transform: translateX(-50%);
+  width: 45px;
+  height: 45px;
+  background: $colorWhite;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
 }

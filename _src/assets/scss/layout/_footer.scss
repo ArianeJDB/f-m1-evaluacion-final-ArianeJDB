@@ -1,4 +1,4 @@
-#footer {
+.footer {
     background: #304268;
     font-family: $font-family;
     font-size: $md;
@@ -32,4 +32,14 @@
 
 .heart {
     color: $colorOrange;
+}
+
+.link {
+    font-family: $font-family;
+    font-size: $md;
+    line-height: 30px;
+    color: $colorWhite;
+    text-transform: uppercase;
+    text-decoration: none;
+
 }
