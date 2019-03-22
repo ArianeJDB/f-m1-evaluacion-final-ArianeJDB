@@ -34,6 +34,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media all and (min-width: 768px) {
+    // width: 360px;
+    
+  }
 }
 .title {
   color: $colorWhite;
@@ -42,13 +46,21 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 5px;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 20px;
+  
 }
-
+}
 .subtitle {
   font-family: $font-family;
   color: $colorWhite;
   font-size: $md;
-  margin-top: 5px;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+
+  }
 }
 
 .button {
@@ -61,4 +73,8 @@ body {
   align-items: center;
   margin-bottom: 53px;
   margin-top: 45px;
+  @media all and (min-width: 768px) {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
 }

@@ -4,11 +4,6 @@
   line-height: 30px;
   font-family: $font-family;
 }
-.main__container__first {
-  // height: 376px;
-}
-
-
 
 .main__container__first-link {
   margin-top: 30px;
@@ -28,19 +23,30 @@
   font-size: 24px;
   text-transform: capitalize;
   margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
 }
 
 .main__container__first__text {
   font-size: $xl;
-
   margin-bottom: 30px;
-  margin-top: 15px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+  }
 }
 
 .main__container__first__button {
   display: flex;
   align-items: center;
   margin-bottom: 45px;
+  @media all and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
 }
 .button-go {
   width: 76px;
@@ -53,6 +59,9 @@
   font-weight: bold;
   line-height: 45px;
   cursor: pointer;
+  @media all and (min-width: 768px) {
+    width: 91px;
+  }
 }
 
 .main__container__second {
