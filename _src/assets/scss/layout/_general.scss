@@ -4,7 +4,6 @@
   line-height: 30px;
   font-family: $font-family;
   @media all and (min-width: 1200px) {
-   
   }
 }
 
@@ -57,7 +56,6 @@
   @media all and (min-width: 768px) {
     margin-bottom: 60px;
   }
- 
 }
 .button-go {
   width: 76px;
@@ -79,29 +77,27 @@
   }
   @media all and (min-width: 1200px) {
     width: 160px;
-    
   }
 }
 
 .main__container__second {
   background: #eff9ff;
   font-size: $xl;
-    text-align: center;
-    position: relative; 
-    z-index: 1;
-    
-  }
-  //mejorar luego los numeros negativos
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
 .wrapper .main__container__second {
   margin-right: -15px;
   margin-left: -15px;
   @media all and (min-width: 768px) {
     margin-right: -37px;
-  margin-left: -37px;
-  @media all and (min-width: 1200px) {
-    margin-right: -85px;
-  margin-left: -85px;
-  }
+    margin-left: -37px;
+    @media all and (min-width: 1200px) {
+      margin-right: -85px;
+      margin-left: -85px;
+    }
   }
 }
 
@@ -131,7 +127,7 @@ h3 {
   padding-right: 55px;
   padding-left: 55px;
   @media all and (min-width: 768px) {
-    margin-top:14px;
+    margin-top: 14px;
   }
 }
 
@@ -154,7 +150,7 @@ h3 {
   }
   @media all and (min-width: 768px) {
     margin-top: 60px;
-    margin-bottom: 38px
+    margin-bottom: 38px;
   }
   @media all and (min-width: 1200px) {
     width: 255px;
@@ -176,15 +172,13 @@ h3 {
   transform: translateX(-50%);
   &:hover {
     background: $colorOrange;
-    
   }
-
 }
 
 @media all and (min-width: 768px) {
   .main__container__second__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 }
