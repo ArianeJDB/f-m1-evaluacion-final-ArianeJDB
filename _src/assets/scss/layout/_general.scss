@@ -70,6 +70,10 @@
   font-weight: bold;
   line-height: 45px;
   cursor: pointer;
+  &:hover {
+    background: $colorOrange;
+    color: white;
+  }
   @media all and (min-width: 768px) {
     width: 91px;
   }
@@ -144,6 +148,10 @@ h3 {
   margin-top: 45px;
   margin-bottom: 60px;
   cursor: pointer;
+  &:hover {
+    background: white;
+    color: $colorOrange;
+  }
   @media all and (min-width: 768px) {
     margin-top: 60px;
     margin-bottom: 38px
@@ -166,6 +174,11 @@ h3 {
   bottom: -25px;
   left: 50%;
   transform: translateX(-50%);
+  &:hover {
+    background: $colorOrange;
+    
+  }
+
 }
 
 @media all and (min-width: 768px) {
@@ -173,8 +186,6 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr;
-    
-    
   }
 }
 
