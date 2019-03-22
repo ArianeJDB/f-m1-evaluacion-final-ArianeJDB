@@ -3,6 +3,9 @@
   flex-direction: column;
   line-height: 30px;
   font-family: $font-family;
+  @media all and (min-width: 1200px) {
+   
+  }
 }
 
 .main__container__first-link {
@@ -11,6 +14,9 @@
   padding-bottom: 0px;
   font-size: 14px;
   height: 30px;
+  @media all and (min-width: 1200px) {
+    margin-top: 73px;
+  }
 }
 
 .link-tips {
@@ -28,11 +34,15 @@
     line-height: 45px;
     margin-bottom: 30px;
   }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 
 .main__container__first__text {
   font-size: $xl;
   margin-bottom: 30px;
+  color: #4a4a4a;
   @media all and (min-width: 768px) {
     font-size: 20px;
     font-weight: normal;
@@ -47,6 +57,7 @@
   @media all and (min-width: 768px) {
     margin-bottom: 60px;
   }
+ 
 }
 .button-go {
   width: 76px;
@@ -62,6 +73,10 @@
   @media all and (min-width: 768px) {
     width: 91px;
   }
+  @media all and (min-width: 1200px) {
+    width: 160px;
+    
+  }
 }
 
 .main__container__second {
@@ -72,7 +87,19 @@
     z-index: 1;
     
   }
-
+  //mejorar luego los numeros negativos
+.wrapper .main__container__second {
+  margin-right: -15px;
+  margin-left: -15px;
+  @media all and (min-width: 768px) {
+    margin-right: -37px;
+  margin-left: -37px;
+  @media all and (min-width: 1200px) {
+    margin-right: -85px;
+  margin-left: -85px;
+  }
+  }
+}
 
 .title3 {
   margin-top: 30px;
@@ -83,6 +110,10 @@
   @media all and (min-width: 768px) {
     font-size: 26px;
     line-height: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    margin-top: 60px;
   }
 }
 
@@ -117,6 +148,10 @@ h3 {
     margin-top: 60px;
     margin-bottom: 38px
   }
+  @media all and (min-width: 1200px) {
+    width: 255px;
+    margin-bottom: 60px;
+  }
 }
 
 .button__scroll-up {
@@ -140,5 +175,16 @@ h3 {
     grid-template-rows: 1fr;
     
     
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .main__container__first {
+    padding-left: 235px;
+    padding-right: 235px;
+  }
+  .main__container__second {
+    padding-left: 85px;
+    padding-right: 85px;
   }
 }
